@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD App with jQuery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Management System</h1>
+        <form id="create-form">
+            <input type="text" id="title" placeholder="Enter title">
+            <input type="text" id="author" placeholder="Enter author">
+            <input type="number" id="pages" placeholder="Enter pages">
+            <button type="submit">Add Book</button>
+        </form>
+        <div id="books"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
